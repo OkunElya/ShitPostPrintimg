@@ -1,6 +1,6 @@
 ###################################
 PrinterIp="10.254.252.105"
-UserId=1276029666168582146#1393004984669638659#LOL Thats Mine ID)))))# Twitter id
+UserId=1393004984669638659#LOL Thats Mine ID)))))# Twitter id
 ###################################
 
 from typing import Match
