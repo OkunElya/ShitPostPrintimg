@@ -1,9 +1,7 @@
 ###################################
-PrinterIp="10.254.252.105"
-UserId=1393004984669638659#LOL Thats Mine ID)))))# Twitter id
+PrinterIp="10.254.252.101" 
+UserId=1276029666168582146#LOL Thats Mine ID)))))# Twitter id
 ###################################
-
-from typing import Match
 from requests_oauthlib.oauth1_session import urldecode
 from SRP350IIAPI import WebPrinter 
 from SRP350IIAPI import QRcode
@@ -96,10 +94,8 @@ P.printR("Establishing connection with Twitter...")
 P.fontSelector(bytearray([0b00000000]))
 P.lineFeed()
 
-
 P.printR(formDTS())
 P.lineFeed()
-
 
 uID=UserId
 tweets=api.get_users_tweets(uID,max_results=5)
